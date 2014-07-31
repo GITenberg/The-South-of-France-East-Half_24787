@@ -1,0 +1,226 @@
+body {margin-left: 10%; margin-right: 10%;}
+
+div.page, div.preface, div.toc {margin-top: 3em; margin-bottom: 3em;}
+
+div.itinerary {margin-left: 8%; margin-right: 6%;}
+
+hr {width: 80%; margin-top: 1em; margin-bottom: 1em; text-align:
+center;}
+hr.mid {width: 40%;}
+hr.tiny {width: 20%;}
+hr.micro {width: 10%;}
+
+sup {font-size: 85%; vertical-align: .25em; line-height: 50%;}
+img {border: none; margin: 0em;}
+
+a:link, a:visited {text-decoration: none; color: #009;
+background-color: inherit;}
+table.index a:link, table.index a:visited {color: inherit;
+background-color: inherit;}
+
+a.tag {text-decoration: none; vertical-align: .3em; font-size: 80%;
+padding-left: .25em; line-height: .1em;}
+
+a.paris {text-decoration: none; font-weight: bold;
+font-style: normal;}
+a.riviera {text-decoration: none; font-weight: normal;
+font-style: italic;}
+a.turin:link, a.turin:visited {text-decoration: underline;
+font-weight: normal; font-style: normal;}
+
+
+/* headers */
+
+h1, h2, h3, h4, h5, h6 {text-align: center; font-style: normal;
+font-weight: normal; line-height: 1.5; margin-top: .5em;
+margin-bottom: .5em;}
+
+h1 {font-size: 200%;}
+h2 {font-size: 175%;}
+h3 {font-size: 150%;}
+h4 {font-size: 120%;}
+h4 span.smaller {font-size: 83%;}
+h5 {font-size: 100%;}
+h4.itinerary, h5.itinerary {font-weight: bold; margin-top: 1em;}
+h4.sans, h5.sans {margin-top: 1em;}
+h5.long {text-align: left; margin-left: 2em; margin-right: 1em;
+text-indent: -1em; line-height: 1.2em;}
+h6 {font-size: 85%;}
+
+h1.one {font-size: 200%; margin: .5em;}
+h1.two {font-size: 150%; margin: .67em;}
+h1.three {font-size: 120%; margin: .83em;}
+h1.five {font-size: 100%; margin: 1em;}
+h1.six {font-size: 88%; margin: 1.14em;}
+h1.seven {font-size: 75%; margin: 1.33em;}
+
+
+p {margin-top: .5em; margin-bottom: 0em; line-height: 1.2;}
+
+p.space {margin-top: 1em;}
+p.inset {margin-left: 1em;}
+p.notation {margin-left: 1em; font-size: 92%; line-height: normal;}
+p.right {margin-right: 2em; text-align: right;}
+p.center {text-align: center;}
+
+div.picture {max-width: 500px; margin-top: 2em; margin-bottom: 2em;}
+p.illustration {text-align: center; margin-top: 1em; margin-bottom: 1em;
+font-size: 88%;}
+p.illustration.float {float: right; margin-left: .5em;
+margin-bottom: .5em;}
+p.caption {font-size: 88%; text-align: center;}
+p.caption + p.illustration {margin-top: .5em;}
+
+p.line {background-position: center; background-repeat: no-repeat;
+background-image: url("images/line.gif"); text-align: center;}
+
+div.deephang p {margin-left: 2em; text-indent: -2em; font-size: 92%;}
+div.deephang p.inline {text-indent: 0;}
+
+div.toc p {clear: right; margin-left: 1em; text-indent: -1em;
+margin-right: 4em;}
+div.toc p.inset, div.toc p.notation {margin-left: 3em;}
+
+div.food p {margin-left: 1em; text-indent: -1em; line-height: normal;
+margin-top: 0;}
+div.food p.inset {margin-left: 3em;}
+div.food h5 {font-weight: bold; text-align: left; margin-left: 25%;}
+
+div.prelim p, p.sidetrip, span.sidetrip
+{font-size: 92%; line-height: normal;}
+p.summary {font-size: 92%; font-weight: bold; margin-top: 1em;
+margin-bottom: 1em;}
+
+div.verse {margin-left: 2em; margin-top: .5em; font-style: italic;}
+div.verse p {margin-top: 0em; margin-left: 4em; text-indent: -4em;}
+div.verse p.inset {margin-left: 6em;}
+
+
+/* headnotes */
+
+span.headnote {background-color: #DDD; color: #222;
+padding: .3em 2em .2em; border-top: 1px solid #CCC;
+border-bottom: 1px solid #CCC; font-variant: small-caps;}
+span.headnote.added {font-style: italic;}
+span.headnote.float {float: left; margin: .33em .5em .25em -25%;}
+
+p.sidetrip span.headnote {font-size: 108%;}
+
+p.headnote {margin: 1em 0% .5em -12.5%;}
+
+div.itinerary p.headnote {margin-left: -25%; margin-right: -20%;}
+
+
+/* footnotes */
+
+p.footnote {margin: 1em 2em; font-size: 95%;}
+
+
+/* tables */
+
+table {margin-left: auto; margin-right: auto; margin-top: 1em;
+margin-bottom: 1em;}
+table p {margin-top: 0em; margin-left: 2em; text-indent: -2em;
+line-height: normal;}
+
+table.grid {border-collapse: collapse; border: 1px solid #000;
+font-size: 80%;}
+
+td {vertical-align: top; text-align: left; padding: .1em .5em;}
+tr.toppad td {padding-top: .25em;}
+
+td.number {text-align: right;}
+td.center {text-align: center;}
+
+td.outline, tr.outline td {border: 1px solid #000;}
+tr.topline td {border-top: 1px solid #000;}
+td.bottomline, tr.bottomline td {border-bottom: 1px solid #000;}
+td.sideline, tr.sideline td  {border-left: 1px solid #000;
+border-right: 1px solid #000;}
+td.leftline {border-left: 1px solid #000;}
+td.rightline {border-right: 1px solid #000;}
+
+td.box, tr.box td {border: 1px solid #000; vertical-align: middle;
+text-align: center;}
+
+td.bracket {background-repeat: no-repeat; background-position: right;
+background-image: url("images/bracket_sm_rt.gif"); padding-right: 1em;
+vertical-align: middle;}
+
+
+/* index */
+
+table.index {width: 100%;}
+table.index td {padding-top: 1em;}
+table.index td.letterhead {padding-left: 25%; font-family: sans-serif;
+font-weight: bold;}
+table.index p {margin-left: 2em; text-indent: -2em; font-size: 92%;
+line-height: normal; margin-top: 0;}
+table.index p.inset {margin-left: 3em;}
+span.dash {letter-spacing: -.25em;}
+
+
+/* spans */
+
+span.miles {padding: .4em 1.2em; border: 1px solid #CCC;
+margin: .2em 0em 0em 0em; font-size: 85%; font-weight: bold;
+text-align: center;}
+.miles.from {float: left; clear: left; margin-right: .5em;}
+.miles.to {float: right; clear: right; margin-left: .5em;}
+
+span.sidenote {position: absolute; text-align: center; font-size: .8em;
+font-variant: small-caps; white-space: normal;}
+.sidenote.from {left: 0%; width: 16%;}
+.sidenote.from:before {content: "miles from";}
+.sidenote.to {right: 0%; width: 14%;}
+.sidenote.to:before {content: "miles to";}
+
+span.page {float: right; padding: 0em 0em 0em 2em;
+margin-right: -4em; margin-bottom: .5em; text-indent: 0em;} /* TOC */
+
+span.firstword {font-variant: small-caps;}
+
+
+.invisible {visibility: hidden;}
+.gap {letter-spacing: .67em;}
+
+.smaller {font-size: 92%; line-height: normal;}
+.smallroman {font-variant: small-caps; text-transform: lowercase;}
+.smallcaps {font-variant: small-caps; font-style: normal;}
+.extended {letter-spacing: 0.2em;}
+.sans {font-family: sans-serif;}
+.fancy {font-family: fantasy;}
+.ital {font-style: italic;}
+.boldf {font-weight: bold;}
+
+
+/* correction popup */
+
+ins.correction {text-decoration: none; border-bottom: thin dotted red;}
+
+/* page number */
+
+span.pagenum {position: absolute; right: 2%; font-size: 88%;
+font-weight: normal; font-style: normal; text-align: right;
+color: #444; background-color: inherit; text-indent: 0em;}
+
+.sidetrip span.pagenum, .smaller span.pagenum {font-size: 95%;}
+
+span.pagenum.left {right: 94%;} /* in Index columns */
+
+p.illustration span.pagenum {font-style: italic; font-variant: normal;
+font-family: serif;}
+p.illustration span.pagenum:before {font-style: normal; content: "[";}
+p.illustration span.pagenum:after {font-style: normal; content: "]";}
+
+/* Transcriber's Note */
+
+div.mynote, p.mynote {background-color: #DDE; color: #000;
+margin: 1em 5%; font-family: sans-serif; font-size: 90%;}
+div.mynote {padding: .5em 1em 1em;}
+
+p.mynote {padding: 1em;}
+div.toc p.mynote {text-indent: 0;}
+div.itinerary p.mynote {padding: .5em;}
+
+div.mynote a {text-decoration: none;}
