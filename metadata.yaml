@@ -11,6 +11,8 @@ creator:
     gutenberg_agent_id: '8939'
     url: http://www.gutenberg.org/2009/agents/8939
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/24787#The-South-of-France-East-Half
 gutenberg_bookshelf: France
 gutenberg_issued: '2008-03-09'
 gutenberg_type: Text
